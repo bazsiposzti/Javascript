@@ -1,0 +1,75 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url("images/table.png");
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin-bottom: 4px;
+}
+
+input {
+    margin: 15px;
+    border-color: goldenrod;
+    background-color: #016f32;
+    color: yellow;
+}
+
+input::placeholder{
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#nameCheck {
+    opacity: 1;
+    transition: opacity 2s ease;
+    -webkit-transition: opacity 2s ease;
+    -moz-transition: opacity 2s ease;
+    -ms-transition: opacity 2s ease;
+    -o-transition: opacity 2s ease;
+}
+
+#creditCheck {
+    opacity: 1;
+    transition: opacity 2s ease;
+    -webkit-transition: opacity 2s ease;
+    -moz-transition: opacity 2s ease;
+    -ms-transition: opacity 2s ease;
+    -o-transition: opacity 2s ease;
+}
+
+#form-container{
+    padding: 25px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#gamemenu {
+    width: 450px;
+}
